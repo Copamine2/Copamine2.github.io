@@ -1,0 +1,65 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling: a soft background with a comfortable font */
+  body {
+    background-color: #353535;  /* Light cool tone */
+    color: #f2f4f7;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Container to center and constrain your content */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #272727;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Headings styling */
+  h1, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f2f4f7;
+    font-weight: 400;
+  }
+  
+  /* Paragraph styling for an easy reading experience */
+  p {
+    margin-bottom: 1.2em;
+    padding: 0 15px;
+    text-align: justify;
+  }
+  
+  /* Link styling with a modern, subtle hover effect */
+  a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.25s ease;
+  }
+  
+  a:hover {
+    color: #217dbb;
+    text-decoration: underline;
+  }
+  
+  /* Optional: styling for section breaks to provide spacing */
+  section {
+    margin: 40px 0;
+  }
+  
+  /* If you use <center> tags (though consider using CSS instead), you can override them */
+  center {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
